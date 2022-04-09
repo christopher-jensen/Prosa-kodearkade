@@ -1,19 +1,16 @@
 ﻿public class Gnavpot : Dwarf
 {
-    public string Name { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-
-    public void AcceptCalled(Visitor visitor)
+    public Gnavpot(string name) : base(name)
     {
-        throw new System.NotImplementedException();
     }
 
-    public void AcceptDisappear(Visitor visitor)
-    {
-        throw new System.NotImplementedException();
-    }
 
-    public void AcceptLast(Visitor visitor)
+    public override void Disappear()
     {
-        throw new System.NotImplementedException();
+        System.Console.WriteLine("Gnavpot gad ikke mere og forsvandt");
+    }
+    public override void Last()
+    {
+        System.Console.WriteLine("Gnavpot blev trist over at være den sidste og lukker festen");
     }
 }

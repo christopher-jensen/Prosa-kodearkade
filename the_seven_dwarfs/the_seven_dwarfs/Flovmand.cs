@@ -1,17 +1,16 @@
 ﻿public class Flovmand : Dwarf
 {
-    public override void AcceptCalled(Visitor visitor)
+    public Flovmand(string name) : base(name)
     {
-        throw new System.NotImplementedException();
     }
 
-    public override void AcceptDisappear(Visitor visitor)
-    {
-        throw new System.NotImplementedException();
-    }
 
-    public override void AcceptLast(Visitor visitor)
+    public override void Disappear()
     {
-        throw new System.NotImplementedException();
+        System.Console.WriteLine("Flovmand blev for flov og gravlede tilbage til sit hus");
+    }
+    public override void Last()
+    {
+        System.Console.WriteLine("Flovmand blev for flov og lukkede festen");
     }
 }

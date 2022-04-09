@@ -1,17 +1,11 @@
 ﻿public class Prosit : Dwarf
 {
-    public override void AcceptCalled(Visitor visitor)
+    public Prosit(string name) : base(name)
     {
-        throw new System.NotImplementedException();
     }
 
-    public override void AcceptDisappear(Visitor visitor)
+    public override void Accept(Visitor visitor)
     {
-        throw new System.NotImplementedException();
-    }
-
-    public override void AcceptLast(Visitor visitor)
-    {
-        throw new System.NotImplementedException();
+        visitor.VisitProsit(this);
     }
 }

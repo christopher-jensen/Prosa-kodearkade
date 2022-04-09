@@ -7,7 +7,8 @@ namespace the_seven_dwarfs
     {
         static void Main(string[] args)
         {
-            List<Dwarf> dwarfs = new List<Dwarf>();
+            Controller ctr = new Controller();
+            List<Dwarf> dwarfs = ctr.CreateDwarfsList();
 
         }
     }

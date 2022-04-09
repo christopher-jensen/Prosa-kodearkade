@@ -5,7 +5,16 @@
         Name = name;
     }
     public string Name { get; set; }
-    public abstract void AcceptCalled(Visitor visitor);
-    public abstract void AcceptLast(Visitor visitor);
-    public abstract void AcceptDisappear(Visitor visitor);
+
+    public abstract void Disappear();
+    public abstract void Last();
+
+    public abstract void CallBrille();
+    public abstract void CallGnavpot();
+    public abstract void CallLystig();
+    public abstract void CallProsit();
+    public abstract void CallFlovmand();
+    public abstract void CallSøvnig();
+    public abstract void CallDumpe();
+
 }

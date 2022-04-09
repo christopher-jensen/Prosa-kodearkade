@@ -7,7 +7,10 @@ namespace the_seven_dwarfs
     {
         const int total_dwarfs = 7;
         private Random rnd = new Random();
-        List<Dwarf> all_dwarfs = new List<Dwarf> { };
+        List<Dwarf> all_dwarfs = new List<Dwarf> {
+            new Brille("Brille"), new Gnavpot("Gnavpot"), new Lystig("Lystig"),
+            new Prosit("Prosit"), new Flovmand("Flovmand"), new Søvnig("Søvnig"),
+            new Dumpe("Dumpe")};
 
         public List<Dwarf> CreateDwarfsList()
         {
@@ -17,7 +20,7 @@ namespace the_seven_dwarfs
             for(int i = 0; i < amount_of_dwarfs; i++)
             {
                 dwarf = rnd.Next(0, total_dwarfs-1-i);
-                dwarfs.Add(dwarfs[dwarf]);
+                dwarfs.Add(all_dwarfs[dwarf]);
                 all_dwarfs.Remove(all_dwarfs[dwarf]);
             }
             return dwarfs;

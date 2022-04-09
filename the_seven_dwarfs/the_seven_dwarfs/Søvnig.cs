@@ -1,17 +1,16 @@
 ﻿public class Søvnig : Dwarf
 {
-    public override void AcceptCalled(Visitor visitor)
+    public Søvnig(string name) : base(name)
     {
-        throw new System.NotImplementedException();
     }
 
-    public override void AcceptDisappear(Visitor visitor)
-    {
-        throw new System.NotImplementedException();
-    }
 
-    public override void AcceptLast(Visitor visitor)
+    public override void Disappear()
     {
-        throw new System.NotImplementedException();
+        System.Console.WriteLine("Søvnig blev træt og gik i seng");
+    }
+    public override void Last()
+    {
+        System.Console.WriteLine("Søvnig er for første gang den sidste oppe, men hopper i seng nu");
     }
 }

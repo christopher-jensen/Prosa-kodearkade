@@ -1,17 +1,16 @@
 ﻿public class Dumpe : Dwarf
 {
-    public override void AcceptCalled(Visitor visitor)
+    public Dumpe(string name) : base(name)
     {
-        throw new System.NotImplementedException();
     }
 
-    public override void AcceptDisappear(Visitor visitor)
-    {
-        throw new System.NotImplementedException();
-    }
 
-    public override void AcceptLast(Visitor visitor)
+    public override void Disappear()
     {
-        throw new System.NotImplementedException();
+        System.Console.WriteLine("Dumpe skvattede og faldt ned i et hul");
+    }
+    public override void Last()
+    {
+        System.Console.WriteLine("Dumpe snublede og brændte byen ned. Øvbøv");
     }
 }

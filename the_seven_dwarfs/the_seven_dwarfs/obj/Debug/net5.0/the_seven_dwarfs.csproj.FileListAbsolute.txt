@@ -1,0 +1,16 @@
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\the_seven_dwarfs.exe
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\the_seven_dwarfs.deps.json
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\the_seven_dwarfs.runtimeconfig.json
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\the_seven_dwarfs.runtimeconfig.dev.json
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\the_seven_dwarfs.dll
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\ref\the_seven_dwarfs.dll
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\bin\Debug\net5.0\the_seven_dwarfs.pdb
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.csproj.AssemblyReference.cache
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.AssemblyInfoInputs.cache
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.AssemblyInfo.cs
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.csproj.CoreCompileInputs.cache
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.dll
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\ref\the_seven_dwarfs.dll
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.pdb
+C:\Users\chris\Projekter\Prosa-kodearkade\the_seven_dwarfs\the_seven_dwarfs\obj\Debug\net5.0\the_seven_dwarfs.genruntimeconfig.cache

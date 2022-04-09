@@ -1,19 +1,16 @@
 ﻿public class Brille : Dwarf
 {
-    public string Name { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
-
-    public void AcceptCalled(Visitor visitor)
+    public Brille(string name) : base(name)
     {
-        throw new System.NotImplementedException();
     }
 
-    public void AcceptDisappear(Visitor visitor)
+   
+    public override void Disappear()
     {
-        throw new System.NotImplementedException();
+        System.Console.WriteLine("Brille kan ikke finde sinde briller og er smuttet ud i busken efter dem");
     }
-
-    public void AcceptLast(Visitor visitor)
+    public override void Last()
     {
-        throw new System.NotImplementedException();
+        System.Console.WriteLine("Brille fandt sine briller, men opdagede at folk var væk. Han smutter som den sidste");
     }
 }
